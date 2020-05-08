@@ -33,4 +33,8 @@ class Melon(object):
 
 # FIXME: Add Squash class definition here.
 class Squash(Melon):
-    pass
+    def __init__(self):
+        super().__init__(self, "Squash")
+
+
+    return
